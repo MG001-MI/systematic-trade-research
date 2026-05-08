@@ -4,14 +4,14 @@ End-to-end systematic trading research framework with backtesting, walk-forward 
 Core features:
 backtest over 20 years of data
 
-parameter stability analysis over multiple regimes
+parameter stability grid analysis over multiple regimes
+
+slippage stress testing over multiple regimes
 
 Integrated transaction costs like commissions, slippage, etc.
-
 
 fixed params walkforward testing
 
 rolling windows walkforward optimization
-
 
 Live execution simulation engine
