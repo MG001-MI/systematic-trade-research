@@ -1,6 +1,6 @@
-# Stability Test for Fixed Param Walkforward Validation
+# Stability Tests for Fixed Param Walkforward Validation
 
-# consistency 
+# Period Win % consistency 
 
 (wf['cagr'] > 0).mean()
 
@@ -11,11 +11,13 @@ loss_density = (wf['cagr'] < 0).rolling(3).mean()
 print("Max loss clustering (3-period window):", loss_density.max())
 
 
-# Stability Test for Rolling windows Walkforward Optimisation
+
+
+# Stability Tests for Rolling windows Walkforward Optimisation
 
 wf_opt[['breakout','atr']].value_counts(normalize=True)
 
-# consistency
+# Period Win % consistency
 
 (wf_opt['test_cagr'] > 0).mean()
 
@@ -38,8 +40,6 @@ def consistency_check(series):
     neg = (series < 0).astype(int)
 
     streaks = neg.groupby((neg != neg.shift()).cumsum()).cumsum()
-
-    
 
     return {
 
