@@ -1,6 +1,0 @@
-import pandas as pd
-import numpy as np
-import yfinance as yf
-import matplotlib.pyplot as plt
-
-df = yf.download("AMZN", start="2005-01-01", auto_adjust=True)
