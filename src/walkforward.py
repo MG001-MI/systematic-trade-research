@@ -1,5 +1,6 @@
 #------FIXED PARAMS WALKFORWARD TESTING------
 
+
 def walkforward(df, breakout, atr_mult, train_years=6, test_years=2):
 
     df = df.copy()
@@ -61,10 +62,12 @@ def walkforward(df, breakout, atr_mult, train_years=6, test_years=2):
         start_idx += test_years  # roll forward
 
     return pd.DataFrame(results)
+    
 
 
 
 #------ROLLING WINDOW WALKFORWARD OPTIMIZATION------
+
 
 def walkforward_optimized(df, params, train_years=6, test_years=2):
 
@@ -130,6 +133,7 @@ def walkforward_optimized(df, params, train_years=6, test_years=2):
 
     return pd.DataFrame(results)
     
+    
 
 
 #------WALKFORWARD CONSISTENCY CHECK (LOSS CLUSTERING ANALYSIS)------
@@ -148,25 +152,5 @@ def consistency_check(series):
         "worst_3_period_loss_cluster": float(neg.rolling(3).mean().max())
 
     }
-    
-
-rolling_consistency = consistency_check(wf_opt["test_cagr"])
-
-fixed_consistency = consistency_check(wf["cagr"])
-
-consistency_df = pd.DataFrame([
-    {
-        "walkforward_type": "rolling",
-        **rolling_consistency
-    },
-
-    {
-        "walkforward_type": "fixed",
-        **fixed_consistency
-    }
-])
-
-
-
 
 
