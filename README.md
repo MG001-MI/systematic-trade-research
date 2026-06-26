@@ -6,7 +6,7 @@ Core features:
 
 Donchian breakout trend-following system with SMA200 trend filter and ATR-based trailing risk management.
 
-Backtest over 20+ years of historical AMZ data.
+Backtest over 20+ years of historical stock data (liquid stocks). This research notebook uses AMZ (Amazon) OHLC data for demonstration.
 
 Parameter stability analysis over multiple regimes.
 
@@ -31,7 +31,7 @@ Backtest vs execution engine validation.
 ## Strategy
 
 **Universe**
-- Amazon (AMZN) daily OHLC data (2005–present).
+- Daily OHLC data for liquid stocks. This pipeline uses AMZ (Amazon) data.
 
 **Entry Logic**
 - Long entry on Donchian breakout above the previous N-day high.
@@ -45,8 +45,8 @@ Backtest vs execution engine validation.
 - Exit orders executed at the next bar's open.
 
 **Position Sizing**
-- Fixed-fraction position sizing using 70% of available capital per trade.
-
+- Configurable fixed-fraction position sizing (Used 70% allocation per trade in this experiment)
+  
 **Transaction Cost & Slippage Model**
 - Commission applied on both entry and exit.
 - ATR-based dynamic slippage model scaled by a configurable slippage factor.
@@ -92,7 +92,7 @@ results/
 
 ## Key Findings
 
-- Stable parameter region (breakout/atr: 20, 3.5) identified using robustness analysis
+- Stable parameter region (breakout,atr = 20,3.5) identified using robustness analysis
 
 - Strategy validated using both fixed and rolling walk-forward testing.
 
