@@ -1,17 +1,24 @@
 # systematic-trade-research
-End-to-end systematic trading research framework with backtesting, walk-forward optimization, risk analysis, and execution simulation in Python.
+End-to-end systematic breakout trend-following research pipeline featuring backtesting, parameter robustness analysis, walk-forward optimization, integrated transaction cost modelling and execution engine simulation.
 
 Core features:
-Backtest over 20 years of data.
 
-Parameter stability grid analysis over multiple regimes.
+Donchian breakout trend-following system with SMA200 trend filter and ATR-based trailing risk management.
+
+Backtest over 20+ years of historical AMZ data.
+
+Parameter stability analysis over multiple regimes.
 
 Slippage stress testing over multiple regimes.
 
-Integrated real-world transaction costs like commissions, slippage, etc.
+Integrated real-world transaction costs like commissions and slippage.
 
-Fixed params walkforward testing.
+Fixed-parameter walk-forward validation.
 
-Rolling windows walkforward validation.
+Rolling window walk-forward validation.
 
-Live execution simulation engine and validation. 
+Walk-forward consistency analysis (loss clustering).
+
+Live execution engine simulation.
+
+Backtest vs execution engine validation.
