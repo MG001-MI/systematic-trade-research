@@ -26,6 +26,8 @@ Backtest vs execution engine validation.
 
 
 
+
+
 ## Strategy
 
 **Universe**
@@ -48,6 +50,8 @@ Backtest vs execution engine validation.
 **Transaction Cost & Slippage Model**
 - Commission applied on both entry and exit.
 - ATR-based dynamic slippage model scaled by a configurable slippage factor.
+
+  
   
 
 
@@ -71,6 +75,9 @@ Backtest
 
 
 
+
+
+
 ## Folder Structure
 
 notebooks/
@@ -78,6 +85,7 @@ notebooks/
 src/
 
 results/
+
 
 
 
@@ -91,6 +99,7 @@ results/
 - Transaction cost sensitivity evaluated through slippage stress testing.
 
 - Live execution engine exactly matches backtest results.
+  
 
   
 
