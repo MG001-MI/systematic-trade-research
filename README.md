@@ -2,16 +2,16 @@
 End-to-end systematic trading research framework with backtesting, walk-forward optimization, risk analysis, and execution simulation in Python.
 
 Core features:
-backtest over 20 years of data
+Backtest over 20 years of data.
 
-parameter stability grid analysis over multiple regimes
+Parameter stability grid analysis over multiple regimes.
 
-slippage stress testing over multiple regimes
+Slippage stress testing over multiple regimes.
 
-Integrated transaction costs like commissions, slippage, etc.
+Integrated real-world transaction costs like commissions, slippage, etc.
 
-fixed params walkforward testing
+Fixed params walkforward testing.
 
-rolling windows walkforward optimization
+Rolling windows walkforward validation.
 
-Live execution simulation engine
+Live execution simulation engine and validation. 
