@@ -98,7 +98,31 @@ Backtest
 └── requirements.txt
 ```
 
+'''text.
 
+├── notebooks/
+
+│   ├── 01_Stock_Research.ipynb
+
+│   └── 02_Simulated_Execution_Engine_Validation.ipynb
+
+├── src/
+
+│   ├── backtesting.py
+
+│   ├── walkforward.py
+
+│   ├── parameter_stability.py
+
+│   ├── slippage.py
+
+│   └── live_execution_engine.py
+
+├── results/
+
+├── README.md
+
+└── requirements.txt```
 
 
 ## Key Findings
