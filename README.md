@@ -86,6 +86,10 @@ src/
 
 results/
 
+|
+|̵notbooks/
+         |̵equity
+
 
 
 
