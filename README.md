@@ -81,6 +81,7 @@ Backtest
 ## Folder Structure
 
 
+```text
 ├── notebooks/
 
 │   ├── 01_Stock_Research.ipynb
@@ -104,7 +105,7 @@ Backtest
 ├── README.md
 
 └── requirements.txt
-
+```
 
 
 
