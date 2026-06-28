@@ -83,17 +83,7 @@ Backtest
 
 ```text
 .
-├── notebooks/
-
-│   ├── 01_Stock_Research.ipynb
-
-│   └── 02_Simulated_Execution_Engine_Validation.ipynb
-
-├── src/
-
-│   ├── backtesting.py
-
-│   ├── walkforward.py
+├── notebooks/│   ├── 01_Stock_Research.ipynb│   └── 02_Simulated_Execution_Engine_Validation.ipynb├── src/│   ├── backtesting.py│   ├── walkforward.py
 
 │   ├── parameter_stability.py
 
