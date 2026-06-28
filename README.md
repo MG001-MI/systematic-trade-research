@@ -98,7 +98,8 @@ Backtest
 └── requirements.txt
 ```
 
-'''text.
+'''text
+.
 
 ├── notebooks/
 
@@ -122,7 +123,8 @@ Backtest
 
 ├── README.md
 
-└── requirements.txt```
+└── requirements.txt
+```
 
 
 ## Key Findings
