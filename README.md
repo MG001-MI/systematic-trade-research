@@ -80,15 +80,30 @@ Backtest
 
 ## Folder Structure
 
-notebooks/
 
-src/
+├── notebooks/
 
-results/
+│   ├── 01_Stock_Research.ipynb
 
-|
-|̵notbooks/
-         |̵equity
+│   └── 02_Simulated_Execution_Engine_Validation.ipynb
+
+├── src/
+
+│   ├── backtesting.py
+
+│   ├── walkforward.py
+
+│   ├── parameter_stability.py
+
+│   ├── slippage.py
+
+│   └── live_execution_engine.py
+
+├── results/
+
+├── README.md
+
+└── requirements.txt
 
 
 
