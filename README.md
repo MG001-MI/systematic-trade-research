@@ -80,25 +80,8 @@ Backtest
 
 ## Folder Structure
 
-
 ```text
-.
-├── notebooks/│   ├── 01_Stock_Research.ipynb│   └── 02_Simulated_Execution_Engine_Validation.ipynb├── src/│   ├── backtesting.py│   ├── walkforward.py
 
-│   ├── parameter_stability.py
-
-│   ├── slippage.py
-
-│   └── live_execution_engine.py
-
-├── results/
-
-├── README.md
-
-└── requirements.txt
-```
-
-'''text
 .
 
 ├── notebooks/
@@ -124,7 +107,34 @@ Backtest
 ├── README.md
 
 └── requirements.txt
+
 ```
+├── notebooks/
+│   ├── 01_Stock_Research.ipynb
+│   └── 02_Simulated_Execution_Engine_Validation.ipynb
+├── src/
+│   ├── backtesting.py
+│   ├── walkforward.py
+│   ├── parameter_stability.py
+│   ├── slippage.py
+│   └── live_execution_engine.py
+├── results/
+├── README.md
+└── requirements.txt
+
+├── notebooks
+│   ├── 01_Stock_Research.ipynb
+│   └── 02_Simulated_Execution_Engine_Validation.ipynb
+├── README.md
+├── requirements.txt
+├── results
+└── src
+    ├── backtesting.py
+    ├── live_execution_engine.py
+    ├── parameter_stability.py
+    ├── slippage.py
+    └── walkforward.py
+
 
 
 ## Key Findings
