@@ -76,6 +76,7 @@ Backtest
 
 
 
+
 ## Folder Structure
 
 ```text
@@ -83,16 +84,18 @@ Backtest
 ├── notebooks/
 │   ├── research_pipeline.ipynb
 │   └── simulated_execution_engine_validation.ipynb
+├── results/
 ├── src/
 │   ├── backtesting.py
 │   ├── live_simulation_execution_engine.py
 │   ├── parameter_stability_analysis.py
 │   ├── slippage_stress_test.py
 │   └── walkforward.py
-├── results/
 ├── README.md
 └── requirements.txt
 ```
+
+
 
 
 ## Key Findings
