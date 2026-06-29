@@ -80,18 +80,18 @@ Backtest
 
 ```text
 .
-├── notebooks
-│   ├── 01_Stock_Research.ipynb
-│   └── 02_Simulated_Execution_Engine_Validation.ipynb
+├── notebooks/
+│   ├── research_pipeline.ipynb
+│   └── simulated_execution_engine_validation.ipynb
+├── src/
+│   ├── backtesting.py
+│   ├── live_simulation_execution_engine.py
+│   ├── parameter_stability_analysis.py
+│   ├── slippage_stress_test.py
+│   └── walkforward.py
+├── results/
 ├── README.md
-├── requirements.txt
-├── results
-└── src
-    ├── backtesting.py
-    ├── live_execution_engine.py
-    ├── parameter_stability.py
-    ├── slippage.py
-    └── walkforward.py
+└── requirements.txt
 ```
 
 
