@@ -6,7 +6,7 @@ Core features:
 
 Donchian breakout trend-following system with SMA200 trend filter and ATR-based trailing risk management.
 
-Backtest over 20+ years of historical stock data (liquid stocks). This research notebook uses AMZ (Amazon) OHLC data for demonstration.
+Backtest over 20+ years of historical stock data (liquid stocks). This particular research notebook uses AMZ (Amazon) OHLC data for demonstration.
 
 Parameter stability analysis over multiple regimes.
 
